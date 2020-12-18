@@ -1,5 +1,6 @@
 body{
     margin:0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .toplinks{
 margin-left: 75%;
@@ -8,20 +9,108 @@ margin-top: 2%;
 
 .toplinks a{
     text-decoration: none;
-    padding: 1%;
+    padding: 2%;
     color: black;
     }
 
 
 header h1{
-    margin-top: 5%;
-margin-left: 45%;
+text-align: center;
+font-size: 60px;
+margin-bottom: -4%;
 }
 header h2{
-margin-left: 41%;
+text-align: center;
+font-size: 45px;
+margin-top:5%;
 }
 header img{
     max-width: 80%;
     margin-left: 10%
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+}
+.text1 h1{
+    font-size: 45px;
+}
+
+.text1 p{
+    font-size: 30px;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.imgfront{
+display: flex;
+justify-content:space-around;
+}
+.imgfront img{
+    max-width: 25%;
+}
+.text2{
+    text-align: center;
+    width: 40%;
+    height:30%;
+    font-size: 25px;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+.text2 p{
+    margin-bottom: 30%;
+}
+
+.maincont{
+display: flex;
+justify-content: center;
+}
+
+.text3{
+    text-align: center;
+    width: 40%;
+    height:30%;
+    font-size: 20px;
+    margin-top: 5%;
+}
+.text3 h1{
+    margin-top:-4%
+}
+.maincont img{
+   max-width: 50%;
+   margin-left: 5%;
+   margin-bottom: 5%;
+}
+
+footer{
+        height: 100px;
+        background-color: #01112F;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footcontent{
+    display: flex;
+    color:white;
+    justify-content: space-around;
+}
+.text4{
+margin-top: 40px;
+text-align: center;
+width: 300px;
+margin-left: 10%;
+}
+
+.text4 a{
+    margin-left: 5%;
+}
+
+.copyright{
+    margin-left:40%;
+    text-align: center;
 }
 
