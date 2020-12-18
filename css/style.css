@@ -2,6 +2,9 @@ body{
     margin:0;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+/* Toplinks/navbar */
+
 .toplinks{
 margin-left: 75%;
 margin-top: 2%;
@@ -11,8 +14,9 @@ margin-top: 2%;
     text-decoration: none;
     padding: 2%;
     color: black;
-    }
+}
 
+/* Header*/
 
 header h1{
 text-align: center;
@@ -28,6 +32,7 @@ header img{
     max-width: 80%;
     margin-left: 10%
 }
+/* First text between images  */
 .text1{
     display: flex;
     flex-direction: column;
@@ -42,7 +47,7 @@ header img{
     margin-left:15%;
     margin-right:15%;
 }
-
+/* 3 images (silver) */
 .imgfront{
 display: flex;
 justify-content:space-around;
@@ -50,6 +55,7 @@ justify-content:space-around;
 .imgfront img{
     max-width: 25%;
 }
+/* "Clean consience" text*/
 .text2{
     text-align: center;
     width: 40%;
@@ -61,7 +67,7 @@ justify-content:space-around;
 .text2 p{
     margin-bottom: 30%;
 }
-
+/* Main content is the high qulaity text and the picture next to it*/
 .maincont{
 display: flex;
 justify-content: center;
@@ -82,7 +88,7 @@ justify-content: center;
    margin-left: 5%;
    margin-bottom: 5%;
 }
-
+ /* footer*/
 footer{
         height: 100px;
         background-color: #01112F;
@@ -92,7 +98,7 @@ footer a{
     text-decoration: none;
     color: white;
 }
-
+/* footer text*/
 .footcontent{
     display: flex;
     color:white;
