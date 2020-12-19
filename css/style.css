@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;600&display=swap');
+
 body{
     margin:0;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Toplinks/navbar */
@@ -12,25 +14,51 @@ margin-top: 2%;
 
 .toplinks a{
     text-decoration: none;
+    font-family: 'Spectral', serif;
     padding: 2%;
     color: black;
+    font-size: 15px;
 }
 
 /* Header*/
-
-header h1{
-text-align: center;
-font-size: 60px;
-margin-bottom: -4%;
-}
-header h2{
-text-align: center;
-font-size: 45px;
-margin-top:5%;
-}
 header img{
     max-width: 80%;
     margin-left: 10%
+}
+
+.logo img{
+    height: 25%;
+    width: 25%;
+    margin: 0;
+}
+
+.logo {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.corner {
+    background-image: url(/img/curve%20blue%20rotated.png);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: -7vw;
+    left: 0vw;
+}
+
+.straight {
+    background-image: url(/img/blue%20down.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 120%;
+    top: 18vw;
 }
 /* First text between images  */
 .text1{
@@ -39,13 +67,17 @@ header img{
    text-align: center;
 }
 .text1 h1{
-    font-size: 45px;
+    font-size: 35px;
+    font-family:'Fahkwang', sans-serif;
+    font-weight: 600;
 }
 
 .text1 p{
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 400px;
     margin-left:15%;
     margin-right:15%;
+    font-family: 'Spectral', serif;
 }
 /* 3 images (silver) */
 .imgfront{
@@ -56,16 +88,32 @@ justify-content:space-around;
     max-width: 25%;
 }
 /* "Clean consience" text*/
+
+.straight2 {
+    background-image: url(/img/Blue%20up.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
+.text2 h1{
+    font-family: 'Fahkwang', sans-serif;
+}
+
 .text2{
-    text-align: center;
+    text-align: right;
     width: 40%;
     height:30%;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 50%;
     margin-top: 10%;
 }
 .text2 p{
     margin-bottom: 30%;
+    font-family: 'Spectral', serif;
 }
 /* Main content is the high qulaity text and the picture next to it*/
 .maincont{
@@ -73,15 +121,30 @@ display: flex;
 justify-content: center;
 }
 
-.text3{
-    text-align: center;
-    width: 40%;
+.lowercorn {
+    background-image: url(/img/curve%20blue%20lower.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    z-index: -1;
+    margin-right: -50vw;
+}
+
+.text3 p{
+    text-align: left;
+    width: 100%;
     height:30%;
     font-size: 20px;
     margin-top: 5%;
+    margin-left: 4%;
+    font-family: 'Spectral', serif;
 }
 .text3 h1{
-    margin-top:-4%
+    margin-top:-4%;
+    text-align: center;
+    font-family: 'Fahkwang', sans-serif;
 }
 .maincont img{
    max-width: 50%;
@@ -92,6 +155,7 @@ justify-content: center;
 footer{
         height: 100px;
         background-color: #01112F;
+    font-family: 'Fahkwang', sans-serif;
 }
 
 footer a{
