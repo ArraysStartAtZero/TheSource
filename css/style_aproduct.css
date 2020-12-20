@@ -74,7 +74,7 @@ header h2 {
 #prodnfilter {
     margin-top: 8vw;
     width: 100vw;
-    height: 50vw;
+    height: auto;
     display: grid;
     grid-template-columns: 0.30fr 0.75fr 3fr 0.25fr ;
     margin-bottom: 8vw;
@@ -107,6 +107,7 @@ article{
     flex-flow: column;
     align-items: center;
     border: solid 0.01vw #707070 ;
+    margin-bottom: 3vw;
 }
 
 

@@ -12,11 +12,14 @@ function init() {
 init();
 
 function divi (categories) {
+    const col = "all";
     const urlpara = new URLSearchParams(window.location.search);
     console.log("URLSearchParms" + window);
     const the_page_id = urlpara.get("page_cat");
     console.log(the_page_id);
-    if ( the_page_id == categories._embedded['wp:term'][0][0].name ){
+    if ( the_page_id == col){
+        showprod(categories);
+    } else if ( the_page_id == categories._embedded['wp:term'][0][0].name ) {
         showprod(categories);
     }
 
