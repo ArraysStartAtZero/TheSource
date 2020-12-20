@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3vw;
+}
+
+/* Toplinks/navbar */
+
+.toplinks {
+    margin-left: 70%;
+    margin-top: 2%;
+}
+
+.toplinks a {
+    text-decoration: none;
+    padding: 2%;
+    color: black;
+}
+
+/* Header */
+
+header h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: -4%;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 5%;
+}
+
+
+/*main*/
+.topholder{
+    margin-top: 13vw;
+    margin-left: 10vw;
+}
+
+.topholder h2{
+    margin-top: 3vw;
+    margin-right: 5vw;
+}
+
+.topholder > div{
+    border: solid 0.05vw #707070 ;
+    text-align: center;
+    width: 55vw;
+}
+
+.topholder p {
+    width: 35vw;
+    height: 10vw;
+    padding: 1vw 10vw 4vw 8vw ;
+    text-align: start;
+    line-height: 2;
+}
+
+.topholder > img {
+    position: relative;
+    top: -28vw;
+    left: 50vw;
+    width: 30vw;
+    z-index: -2;
+}
+
+
+
+#prodnfilter{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 3fr 0.25fr;
+}
+
+
+
+
+/* footer*/
+footer {
+    height: 100px;
+    background-color: #01112F;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* footer text*/
+.footcontent {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.text4 {
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+    width: 35vw;
+    justify-content: space-around;
+    font-size: 1vw;
+}
+
+.text4 a {
+    margin-left: 5%;
+}
+
+.copyright {
+    margin-left: 40%;
+    text-align: center;
+    margin-top: 1vw;
+}
