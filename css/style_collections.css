@@ -160,14 +160,16 @@ header h2 {
     cursor: pointer;
 }
 
-.vieA > p {
+.vieA > a {
     position: relative;
+    text-decoration: none;
     text-align: center;
     margin: 0;
     width: 8vw;
     height: 2vw;
     font-weight: 700;
     padding: 0.8vw;
+    color: white;
 }
 
 .backim {
