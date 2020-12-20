@@ -72,11 +72,12 @@ header h2 {
 
 /*product and filter*/
 #prodnfilter {
-    margin-top: 5vw;
+    margin-top: 8vw;
     width: 100vw;
     height: 50vw;
     display: grid;
     grid-template-columns: 0.30fr 0.75fr 3fr 0.25fr ;
+    margin-bottom: 8vw;
 }
 
 #filters{
@@ -89,19 +90,37 @@ header h2 {
 
 #prodnav{
     grid-column-start: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+    grid-gap: 1rem;
+
 }
 
+/*  product styling  */
+.productImg{
+    width: 15vw;
+}
+article{
+    width: 15vw;
+    height: 23vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: solid 0.01vw #707070 ;
+}
 
 
 
 /*template*/
 
 #bar {
+    padding: 0.01vw;
+    position: relative;
     display: block;
-    width: 2vw;
-    height: 0.2vw;
+    width: 1vw;
+    height: 2vw;
     border-radius: 0.3vw;
-    background-color: white;
+    background-color: black;
 }
 
 
