@@ -33,18 +33,19 @@ header h2 {
 
 
 /*main*/
-.topholder{
+.topholder {
+    height: 50vh;
     margin-top: 13vw;
     margin-left: 10vw;
 }
 
-.topholder h2{
+.topholder h2 {
     margin-top: 3vw;
     margin-right: 5vw;
 }
 
-.topholder > div{
-    border: solid 0.05vw #707070 ;
+.topholder > div {
+    border: solid 0.05vw #707070;
     text-align: center;
     width: 55vw;
 }
@@ -52,7 +53,7 @@ header h2 {
 .topholder p {
     width: 35vw;
     height: 10vw;
-    padding: 1vw 10vw 4vw 8vw ;
+    padding: 1vw 10vw 4vw 8vw;
     text-align: start;
     line-height: 2;
 }
@@ -67,14 +68,41 @@ header h2 {
 
 
 
-#prodnfilter{
-    width: 100%;
-    height: auto;
+
+
+/*product and filter*/
+#prodnfilter {
+    margin-top: 5vw;
+    width: 100vw;
+    height: 50vw;
     display: grid;
-    grid-template-columns: 0.25fr 1fr 3fr 0.25fr;
+    grid-template-columns: 0.30fr 0.75fr 3fr 0.25fr ;
+}
+
+#filters{
+    position: relative;
+    top: 5vw;
+    width: 10vw;
+    grid-column-start: 2;
+
+}
+
+#prodnav{
+    grid-column-start: 3;
 }
 
 
+
+
+/*template*/
+
+#bar {
+    display: block;
+    width: 2vw;
+    height: 0.2vw;
+    border-radius: 0.3vw;
+    background-color: white;
+}
 
 
 /* footer*/
