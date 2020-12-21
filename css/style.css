@@ -41,7 +41,6 @@ header img{
 
 .corner {
     background-image: url(img/curve_blue_rotated.png);
-    
     width: 50%;
     height: 100%;
     position: absolute;
@@ -116,16 +115,18 @@ justify-content:space-around;
 .text2 p{
     margin-bottom: 30%;
     font-family: 'Spectral', serif;
+
     font-size: large;
 }
 /* Main content is the high qulaity text and the picture next to it*/
 .maincont{
-    margin-top: 2%;
+margin-top: 2%;
 display: flex;
 justify-content: center;
 }
 
 .lowercorn {
+
     background-image: url(img/curve_blue_lower.png);
     position: absolute;
     background-size: contain;
@@ -133,27 +134,27 @@ justify-content: center;
     height: 100%;
     width: 50%;
     z-index: -1;
+
     margin-top: 20%;
     margin-right: -50vw;
 }
-
-
 .text3{
 margin-top: 10%;
 }
-
-
 .text3 p{
     text-align: left;
     width: 100%;
     height:30%;
     font-size: 20px;
+
     
+
     margin-left: 4%;
     font-family: 'Spectral', serif;
 }
 .text3 h1{
     margin-top: -2%;
+
     text-align: center;
     font-family: 'Fahkwang', sans-serif;
 }
@@ -162,6 +163,7 @@ margin-top: 10%;
    margin-left: 2%;
    margin-bottom: 2%;
    margin-right: 2%;
+
 }
  /* footer*/
 footer{
@@ -270,3 +272,4 @@ margin-left: 10%;
 .recomendation img{
     transform: scale(0.7);
 }
+

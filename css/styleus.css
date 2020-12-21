@@ -105,11 +105,12 @@ text-align: center;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-}
+  
 .fie{
 display: flex;
 flex-direction: column;
 width: 50%;
+
 }
 .stine{
 display: flex;
@@ -156,6 +157,7 @@ box-shadow: 7px 5px 18px 1px rgba(0,0,0,0.75);
 .stine h2 {
     margin-left: 25%;
     margin-right: 25%;   
+
 }
 
 
