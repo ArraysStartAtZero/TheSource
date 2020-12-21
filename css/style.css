@@ -120,9 +120,10 @@ justify-content:space-around;
 }
 /* Main content is the high qulaity text and the picture next to it*/
 .maincont{
-margin-top: 2%;
+margin-top: 30%;
 display: flex;
 justify-content: center;
+margin-bottom: 7%;
 }
 
 .lowercorn {
@@ -163,6 +164,20 @@ margin-top: 10%;
    margin-left: 2%;
    margin-bottom: 2%;
    margin-right: 2%;
+
+}
+.straight3 {
+    background-image: url(img/Blue_up.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: -85%;
+    left: -1vw;
+    transform:scaleX(-1) rotate(10deg);
+
 
 }
  /* footer*/
@@ -221,6 +236,7 @@ margin-left: 10%;
 }
 
 .aboutcollection{
+    padding: 10vw 0 10vw 0;
     display: flex;
     height: 27vw;
     background-color:rgba(214, 206, 161, 0.4) ;
@@ -247,6 +263,21 @@ margin-left: 10%;
 .collectionimg img{
     width: 30%;
     height: 70%;
+}
+#image1{
+    margin: 10.5vw -2vw 0 0 ;
+    z-index: 2;
+    width:auto ;
+    height:25vw ;
+}
+#image2{
+    width:auto ;
+    height: 30vw;
+}
+#image3{
+    margin: 3vw 0 0 -3vw ;
+    width:auto ;
+    height:20vw ;
 }
 .text2imgs{
     
