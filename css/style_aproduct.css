@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;600&display=swap');
+body {
+    margin: 0;
+    font-family: 'Spectral', serif;
+    font-size: 1.3vw;
+}
+
+/* Toplinks/navbar */
+
+.toplinks{
+    margin-left: 75%;
+    margin-top: 2%;
+    }
+    
+    .toplinks a{
+        text-decoration: none;
+        font-family: 'Spectral', serif;
+        padding: 2%;
+        color: black;
+        font-size: 15px;
+    }
+    
+    /* Header*/
+    header img{
+        max-width: 80%;
+        margin-left: 10%
+    }
+    
+    .logo img{
+        height: 25%;
+        width: 25%;
+        margin: 0;
+    }
+    
+    .logo {
+        width: 100%;
+        height: 30%;
+        text-align: center;
+    }
+
+
+/*main*/
+.topholder {
+    height: 50vh;
+    margin-top: 13vw;
+    margin-left: 10vw;
+}
+
+.topholder h2 {
+    margin-top: 3vw;
+    margin-right: 5vw;
+}
+
+.topholder > div {
+    border: solid 0.05vw #707070;
+    text-align: center;
+    width: 55vw;
+}
+
+.topholder p {
+    width: 35vw;
+    height: 10vw;
+    padding: 1vw 10vw 4vw 8vw;
+    text-align: start;
+    line-height: 2;
+}
+
+.topholder > img {
+    position: relative;
+    top: -28vw;
+    left: 50vw;
+    width: 30vw;
+    z-index: -2;
+}
+
+
+
+
+
+/*product and filter*/
+#prodnfilter {
+    margin-top: 8vw;
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 0.30fr 0.75fr 3fr 0.25fr ;
+    margin-bottom: 8vw;
+}
+
+#filters{
+    position: relative;
+    top: 5vw;
+    width: 10vw;
+    grid-column-start: 2;
+
+}
+
+#prodnav{
+    grid-column-start: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+    grid-gap: 1rem;
+
+}
+
+/*  product styling  */
+.productImg{
+    width: 15vw;
+}
+article{
+    width: 15vw;
+    height: 23vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: solid 0.01vw #707070 ;
+    margin-bottom: 3vw;
+}
+
+
+
+/*template*/
+
+#bar {
+    padding: 0.01vw;
+    position: relative;
+    display: block;
+    width: 1vw;
+    height: 2vw;
+    border-radius: 0.3vw;
+    background-color: black;
+}
+
+
+/* footer*/
+footer {
+    height: 100px;
+    background-color: #01112F;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* footer text*/
+.footcontent {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.text4 {
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+    width: 35vw;
+    justify-content: space-around;
+    font-size: 1vw;
+}
+
+.text4 a {
+    margin-left: 5%;
+}
+
+.copyright {
+    margin-left: 40%;
+    text-align: center;
+    margin-top: 1vw;
+}
