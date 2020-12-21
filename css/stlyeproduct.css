@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;600&display=swap');
+body{
+    margin:0;
+    font-family: 'Spectral', serif;
+}
+
+/* Toplinks/navbar */
+
+.toplinks{
+margin-left: 75%;
+margin-top: 2%;
+}
+
+.toplinks a{
+    text-decoration: none;
+    padding: 2%;
+    color: black;
+}
+
+/* Header*/
+
+header h1{
+text-align: center;
+font-size: 60px;
+margin-bottom: -4%;
+}
+header h2{
+text-align: center;
+font-size: 45px;
+margin-top:5%;
+margin-bottom: 20%;
+}
+.linkproduct{
+font-size: 26px;
+margin-left: 27%;
+
+}
+.linkproduct a{
+text-decoration: none;
+color: black;    
+}
+ /* footer*/
+footer{
+height: 100px;
+background-color: #01112F;
+}
+footer a{
+text-decoration: none;
+color: white;
+}
+/* footer text*/
+.footcontent{
+display: flex;
+color:white;
+justify-content: space-around;
+}
+.text4{
+margin-top: 40px;
+text-align: center;
+width: 300px;
+margin-left: 10%;
+}
+.text4 a{
+margin-left: 5%;
+}
+.copyright{
+margin-left:40%;
+text-align: center;
+}
+.mainproduct img{
+max-width: 38%;
+}
+.mainproduct{
+    display: flex;
+    justify-content: space-around;
+}
+.productimgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 13%;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+.productimgs img{
+   max-width: 100%;
+}
+.textproduct{
+    max-width: 30%;
+    margin-left: -8%;
+    font-size: 25px;
+}
+.btn{
+    background-color: white;
+    border: 1px solid black;
+    width: 70%;
+    height: 7%;
+    font-size: 15px;
+    text-align: justify;
+}
+.btn1{
+    background-color: white;
+    border: 1px solid black;
+    width: 13%;
+    height: 7%;
+    font-size: 15px;
+    text-align: justify;
+}
+.productprice{
+margin-top: 25%;
+margin-left: 60%;
+}
+.btnadd{
+    background-color: #01112F;
+    width:120%;
+    height: 2vw;
+    color: white;
+    margin-left: -90%;
+}
+.info1{
+    margin-left: 27%;
+    font-size: 20px ;
+}
+.shipping{
+    margin-left: 27%;
+    margin-top:5%;
+}
+.return{
+    margin-left: 27%;
+}
+.text2 h1{
+    font-family: 'Fahkwang', sans-serif;
+}
