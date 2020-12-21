@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;600&display=swap');
+body {
+    margin: 0;
+    font-family: 'Spectral', serif;
+    font-size: 1.2vw;
+}
+
+/* Toplinks/navbar */
+
+.corner {
+    background-image: url(img/green_down.png);
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: -7vw;
+    left: 0vw;
+}
+
+
+.toplinks{
+    margin-left: 75%;
+    margin-top: 2%;
+    }
+    
+    .toplinks a{
+        text-decoration: none;
+        font-family: 'Spectral', serif;
+        padding: 2%;
+        color: black;
+        font-size: 15px;
+    }
+    
+    /* Header*/
+    header img{
+        max-width: 80%;
+        margin-left: 10%
+    }
+    
+    .logo img{
+        height: 25%;
+        width: 25%;
+        margin: 0;
+    }
+    
+    .logo {
+        width: 100%;
+        height: 30%;
+        text-align: center;
+    }
+
+/* main */
+#collecT {
+    display: flex;
+    flex-flow: column;
+    margin-top: 7vw;
+    width: 100%;
+    height: 10vw;
+    text-align: center;
+    margin-bottom: 4vw;
+}
+
+#collecT > h2 {
+    text-align: center;
+    width: 15vw;
+    height: auto;
+    align-self: center;
+    font-weight: 300;
+}
+
+#collecT > span {
+    display: block;
+    padding: 0.1vw;
+    width: 1.7vw;
+    height: 0.2vw;
+    border-radius: 0.2vw;
+    background-color: black;
+    align-self: center;
+    z-index: 5;
+
+}
+
+#collecT div {
+    margin-top: 1vw;
+    border: 0.2vw solid #837464;
+    width: 14vw;
+    height: 1.5vw;
+    padding: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.4vw;
+    color: #837464;
+    align-self: center;
+    margin-bottom: 2vw;
+    cursor: pointer;
+}
+
+#collecT a {
+    margin: 0;
+    text-decoration: none;
+    color: #837464;
+}
+
+#cate {
+    color: white;
+    width: 70%;
+    height: auto;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#earR {
+    width: 100%;
+    height: 18vw;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4vw;
+}
+
+#braC {
+    width: 100%;
+    height: 18vw;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4vw;
+}
+
+#necK {
+    width: 100%;
+    height: 18vw;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4vw;
+}
+
+#rinG {
+    width: 100%;
+    height: 18vw;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20vw;
+}
+
+.catB {
+    position: relative;
+    bottom: 13.5vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    float: left;
+    padding-left: 6vw;
+}
+
+.catB > span {
+    position: relative;
+    display: block;
+    width: 2vw;
+    height: 0.2vw;
+    border-radius: 0.3vw;
+    background-color: white;
+}
+
+.catB > p {
+    font-size: 1.5vw;
+    font-weight: 500;
+    width: 8vw;
+    text-align: center;
+}
+
+.vieA {
+    position: relative;
+    top: -12vw;
+    border: 0.2vw solid white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    float: right;
+    width: 8vw;
+    height: 3vw;
+    margin-right: 5vw;
+    cursor: pointer;
+}
+
+.vieA > a {
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    width: 8vw;
+    height: 2vw;
+    font-weight: 700;
+    padding: 0.8vw;
+    color: white;
+}
+
+.backim {
+    width: 100%;
+    height: 18vw;
+    ;
+    z-index: -1;
+    filter: brightness(85%);
+    overflow: hidden;
+}
+
+.backim:hover {
+    filter: brightness(92%);
+}
+
+/* footer*/
+footer{
+    height: 100px;
+    background-color: #01112F;
+font-family: 'Fahkwang', sans-serif;
+}
+
+footer a{
+text-decoration: none;
+color: white;
+}
+
+/* footer text*/
+
+    .footcontent{
+        display: flex;
+        color:white;
+        justify-content: space-around;
+    }
+    .text4{
+    margin-top: 40px;
+    text-align: center;
+    width: 300px;
+    margin-left: 10%;
+    }
+    
+    .text4 a{
+        margin-left: 5%;
+    }
+    
+    .copyright{
+        margin-left:40%;
+        text-align: center;
+    }
+    .straight {
+        background-image: url(img/corner_green.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 120%;
+        top: 18vw;
+        transform: scale(0.7) rotate(45deg);
+        margin-top: 20%;
+        left: -38vw;
+    }
+    .lowercorn {
+        background-image: url(img/curve_blue_lower.png);
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 50%;
+        z-index: -1;
+        margin-top: -45%;
+        margin-left: 50%;
+
+        
+    }

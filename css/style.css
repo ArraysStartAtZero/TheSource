@@ -3,12 +3,13 @@
 
 body{
     margin:0;
+    font-family: 'Spectral', serif;
 }
 
 /* Toplinks/navbar */
 
 .toplinks{
-margin-left: 75%;
+margin-left: 70%;
 margin-top: 2%;
 }
 
@@ -39,7 +40,7 @@ header img{
 }
 
 .corner {
-    background-image: url(/img/curve%20blue%20rotated.png);
+    background-image: url(img/curve_blue_rotated.png);
     width: 50%;
     height: 100%;
     position: absolute;
@@ -51,7 +52,7 @@ header img{
 }
 
 .straight {
-    background-image: url(/img/blue%20down.png);
+    background-image: url(img/blue_down.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -65,6 +66,7 @@ header img{
     display: flex;
     flex-direction: column;
    text-align: center;
+   margin-top: 4%;
 }
 .text1 h1{
     font-size: 35px;
@@ -90,7 +92,7 @@ justify-content:space-around;
 /* "Clean consience" text*/
 
 .straight2 {
-    background-image: url(/img/Blue%20up.png);
+    background-image: url(img/Blue_up.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 120%;
@@ -101,55 +103,67 @@ justify-content:space-around;
 }
 .text2 h1{
     font-family: 'Fahkwang', sans-serif;
+    margin-top: 50%;
 }
 
 .text2{
     text-align: right;
-    width: 40%;
-    height:30%;
     font-size: 20px;
-    margin-left: 50%;
-    margin-top: 10%;
+     width: 50%;
+     margin-right: 2%;
 }
 .text2 p{
     margin-bottom: 30%;
     font-family: 'Spectral', serif;
+
+    font-size: large;
 }
 /* Main content is the high qulaity text and the picture next to it*/
 .maincont{
+margin-top: 2%;
 display: flex;
 justify-content: center;
 }
 
 .lowercorn {
-    background-image: url(/img/curve%20blue%20lower.png);
+
+    background-image: url(img/curve_blue_lower.png);
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
     width: 50%;
     z-index: -1;
+
+    margin-top: 20%;
     margin-right: -50vw;
 }
-
+.text3{
+margin-top: 10%;
+}
 .text3 p{
     text-align: left;
     width: 100%;
     height:30%;
     font-size: 20px;
-    margin-top: 5%;
+
+    
+
     margin-left: 4%;
     font-family: 'Spectral', serif;
 }
 .text3 h1{
-    margin-top:-4%;
+    margin-top: -2%;
+
     text-align: center;
     font-family: 'Fahkwang', sans-serif;
 }
 .maincont img{
    max-width: 50%;
-   margin-left: 5%;
-   margin-bottom: 5%;
+   margin-left: 2%;
+   margin-bottom: 2%;
+   margin-right: 2%;
+
 }
  /* footer*/
 footer{
@@ -182,5 +196,83 @@ margin-left: 10%;
 .copyright{
     margin-left:40%;
     text-align: center;
+}
+
+
+
+.myButton {
+	background-color:transparent;
+	border:2px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-size:13px;
+	padding:6px 8px;
+    text-decoration:none;
+    margin-left: 60%;
+    margin-top: 4%;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.aboutcollection{
+    display: flex;
+    height: 27vw;
+    background-color:rgba(214, 206, 161, 0.4) ;
+    /*#D6CEA1;*/
+}
+.collectiontext{
+    width:40%;
+}
+.collectiontext h1{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.collectiontext p{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.collectionimg{
+    display: flex;
+    margin-left: 5%;
+    width: 50%;
+}
+.collectionimg img{
+    width: 30%;
+    height: 70%;
+}
+.text2imgs{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.textimg{
+    display: flex;
+    width: 50%;
+}
+.rings{
+    margin-left:-30%;
+    margin-top: 25%;
+    transform: rotate(20deg);
+    transform: scale(-0.8);
+}
+.earrings{
+ transform: scale(-0.5); 
+}
+.recomendation{
+ background-color:rgba(214, 206, 161, 0.4);
+ display: flex;
+ justify-content: space-around;
+}
+.recomendation img{
+    transform: scale(0.7);
 }
 
