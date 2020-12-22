@@ -8,16 +8,17 @@ body{
 /* Toplinks/navbar */
 
 .toplinks{
-margin-left: 75%;
-margin-top: 2%;
-}
-.toplinks a{
-    text-decoration: none;
-    font-family: 'Spectral', serif;
-    padding: 2%;
-    color: black;
-    font-size: 15px;
-}
+    margin-left: 70%;
+    margin-top: 2%;
+    }
+    
+    .toplinks a{
+        text-decoration: none;
+        font-family: 'Spectral', serif;
+        padding: 2%;
+        color: black;
+        font-size: 15px;
+    }
 /* Header*/
 .corner {
     background-image: url(/img/curve%20blue%20rotated.png);
