@@ -18,13 +18,14 @@ margin-top: 2%;
     font-family: 'Spectral', serif;
     padding: 2%;
     color: black;
-    font-size: 15px;
+    font-size: 21px;
 }
 
 /* Header*/
 header img{
-    max-width: 80%;
-    margin-left: 10%
+    max-width: 100%;
+    height: 30vw;
+    margin-left: 10%;
 }
 
 .logo img{
@@ -61,7 +62,10 @@ header img{
     height: 120%;
     top: 18vw;
 }
+
+
 /* First text between images  */
+
 .text1{
     display: flex;
     flex-direction: column;
@@ -69,26 +73,31 @@ header img{
    margin-top: 4%;
 }
 .text1 h1{
-    font-size: 35px;
+    font-size: 60px;
     font-family:'Fahkwang', sans-serif;
     font-weight: 600;
 }
 
 .text1 p{
-    font-size: 20px;
-    font-weight: 400px;
+    font-size: 35px;
+    font-weight: 500px;
     margin-left:15%;
     margin-right:15%;
     font-family: 'Spectral', serif;
 }
+
+
 /* 3 images (silver) */
+
 .imgfront{
 display: flex;
 justify-content:space-around;
 }
+
 .imgfront img{
     max-width: 25%;
 }
+
 /* "Clean consience" text*/
 
 .straight2 {
@@ -104,20 +113,79 @@ justify-content:space-around;
 .text2 h1{
     font-family: 'Fahkwang', sans-serif;
     margin-top: 50%;
+    font-size: 60px;
+    font-weight: 600;
 }
 
 .text2{
     text-align: right;
     font-size: 20px;
-     width: 50%;
-     margin-right: 2%;
+     width: 40%;
+     margin-right: 7%;
 }
 .text2 p{
     margin-bottom: 30%;
     font-family: 'Spectral', serif;
-
-    font-size: large;
+    font-size: 35px;
+    font-weight: 500px;
 }
+
+/* About COllection */
+
+.aboutcollection{
+    padding: 10vw 0 10vw 0;
+    display: flex;
+    height: 27vw;
+    background-color:rgba(214, 206, 161, 0.4) ;
+    /*#D6CEA1;*/
+}
+.collectiontext{
+    width:40%;
+}
+.collectiontext h1{
+    margin-top: -4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 60px;
+    font-family:'Fahkwang', sans-serif;
+    font-weight: 600;
+}
+.collectiontext p{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 35px;
+    font-weight: 500px;
+    font-family: 'Spectral', serif;
+}
+.collectionimg{
+    display: flex;
+    margin-left: 5%;
+    margin-top: -5%;
+    width: 50%;
+}
+.collectionimg img{
+    width: 30%;
+    height: 70%;
+}
+#image1{
+    margin: 10.5vw -2vw 0 0 ;
+    z-index: 2;
+    width:auto ;
+    height:25vw ;
+}
+#image2{
+    width:auto ;
+    height: 30vw;
+}
+#image3{
+    margin: 3vw 0 0 -3vw ;
+    width:auto ;
+    height:20vw ;
+}
+
+
+
 /* Main content is the high qulaity text and the picture next to it*/
 .maincont{
 margin-top: 30%;
@@ -127,45 +195,48 @@ margin-bottom: 7%;
 }
 
 .lowercorn {
-
     background-image: url(img/curve_blue_lower.png);
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 50%;
-    z-index: -1;
-
-    margin-top: 25%;
-    margin-right: -50vw;
+    height: 70%;
+    width: 60%;
+    z-index: -10;
+    margin-top: 3%;
+    margin-right: -90%;
 }
+
+/* Last Part Text */
+
 .text3{
-margin-top: 10%;
+margin-top: -13%;
+margin-left: 11%;
 }
+
 .text3 p{
-    text-align: left;
-    width: 100%;
+    text-align: justify;
+    width: 70%;
     height:30%;
-    font-size: 20px;
-
-    
-
-    margin-left: 4%;
+    font-size: 35px;
+    font-weight: 500px;
     font-family: 'Spectral', serif;
 }
+
 .text3 h1{
     margin-top: -2%;
-
-    text-align: center;
-    font-family: 'Fahkwang', sans-serif;
+    font-size: 60px;
+    font-family:'Fahkwang', sans-serif;
+    font-weight: 600;
 }
-.maincont img{
-   max-width: 50%;
-   margin-left: 2%;
-   margin-bottom: 2%;
-   margin-right: 2%;
+
+.img3 {
+    width: 30%;
+    height: 70%;
+    margin-top: 20%;
 
 }
+
+
 .straight3 {
     background-image: url(img/Blue_up.png);
     background-repeat: no-repeat;
@@ -174,36 +245,48 @@ margin-top: 10%;
     width: 100%;
     position: absolute;
     z-index: -1;
-    margin-top: -90%;
+    margin-top: -65%;
     left: -1vw;
     transform:scaleX(-1) rotate(10deg);
-
-
 }
+
+.img3 {
+margin-right: 17%;
+margin-top: -12%;
+}
+
  /* footer*/
  footer{
     height: 100px;
     background-color: #01112F;
     }
+
     footer a{
     text-decoration: none;
     color: white;
     }
+
     /* footer text*/
     .footcontent{
     display: flex;
     color:white;
     justify-content: space-around;
+    font-size: 20px;
+    font-family:'Fahkwang', sans-serif;
+    font-weight: 600;
     }
+
     .text4{
     margin-top: 40px;
     text-align: center;
     width: 300px;
     margin-left: 10%;
     }
+
     .text4 a{
-    margin-left: 5%;
+    margin-left: 1%;
     }
+
     .copyright{
     margin-left:40%;
     text-align: center;
@@ -230,50 +313,6 @@ margin-top: 10%;
 	top:1px;
 }
 
-.aboutcollection{
-    padding: 10vw 0 10vw 0;
-    display: flex;
-    height: 27vw;
-    background-color:rgba(214, 206, 161, 0.4) ;
-    /*#D6CEA1;*/
-}
-.collectiontext{
-    width:40%;
-}
-.collectiontext h1{
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-.collectiontext p{
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-.collectionimg{
-    display: flex;
-    margin-left: 5%;
-    width: 50%;
-}
-.collectionimg img{
-    width: 30%;
-    height: 70%;
-}
-#image1{
-    margin: 10.5vw -2vw 0 0 ;
-    z-index: 2;
-    width:auto ;
-    height:25vw ;
-}
-#image2{
-    width:auto ;
-    height: 30vw;
-}
-#image3{
-    margin: 3vw 0 0 -3vw ;
-    width:auto ;
-    height:20vw ;
-}
 .text2imgs{
     
     display: flex;
